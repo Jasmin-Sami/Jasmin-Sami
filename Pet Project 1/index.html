@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wholething">
+    <h1 id="title">Experimental Research Survey</h1>
+    <p id="description">Answer honestly and truthfully, your personal information
+         will not be shared.</p>
+    <form id="survey-form">
+        <div class="form-elements">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" name="name" id="name" class="wholeform" placeholder="Enter your name" required>
+        </div>
+        <div class="form-elements">
+            <label id="email-label" for="email">E-mail</label>
+            <input type="email" name="email" id="email" class="wholeform" placeholder="Enter your e-mail" required>
+        </div>
+        <div class="form-elements">
+            <label id="number-label" for="age">Age<span class="clue"> (optional)</span></label>
+            <input type="number" name="age" id="number" class="wholeform" placeholder="Age" min="13" max="40">
+            
+        </div>
+        <div class="form-elements">
+            <label id="checkbox-label" for="social-medias">What social media sites do you regularly use?</label>
+            <label>
+                <input type="checkbox" name="social-medias" class="input-checkbox" value="Instagram"/>Instagram
+            </label>
+            <label>
+                <input type="checkbox" name="social-medias" class="input-checkbox" value="Facebook"/>Facebook
+            </label>
+            <label>
+                <input type="checkbox" name="social-medias" class="input-checkbox" value="Twitter"/>Twitter
+            </label>
+            <label>
+                <input type="checkbox" name="social-medias" class="input-checkbox" value="Discord"/>Discord
+            </label>
+            <label>
+                <input type="checkbox" name="social-medias" class="input-checkbox" value="Tiktok"/>Tiktok
+            </label>
+            <label>
+                <input type="checkbox" name="social-medias" class="input-checkbox" value="Snapchat"/>Snapchat
+            </label>
+            <label>
+                <input type="checkbox" name="social-medias" class="input-checkbox" value="Whatsapp"/>Whatsapp
+            </label>
+            <label>
+                <input type="checkbox" name="social-medias" class="input-checkbox" value="Other"/>Other
+            </label>
+        </div>
+        <div class="form-elements">
+            <label id="radio-label" for="posts">Do you regularly post on your social medias?</label>
+            <label>
+                <input type="radio" name="posts" class="input-radio" value="Yes"/>Yes
+            </label>
+            <label>
+                <input type="radio" name="posts" class="input-radio" value="No"/>No
+            </label>
+        </div>
+        <div class="form-elements">
+            <label id="dropdown-label" for="popularity">How popular on social media are you?</label>
+            <select id="dropdown" name="popularity" class="wholeform" required>
+                <option disabled selected value>Select popularity level</option>
+                <option value="unknown">Unknown(<1k followers)</option>
+                <option value="known">known(>1k followers)</option>
+                <option value="locally-popular">Locally popular(<100k followers)</option>
+                <option value="popular">Popular(<1m followers)</option>
+                <option value="famous">Famous(>1mil followers)</option>
+            </select>
+        </div>
+        <div class="form-elements">
+            <label id="additional-comments" for="additional-comments">Please state any additional comments here:</label>
+            <textarea id="comments" class="wholeform" name="additional-comments" placeholder="Enter any comments here..."></textarea>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</div>
+</body>
+</html>
