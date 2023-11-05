@@ -1,4 +1,4 @@
 - 👋 Hi, I’m @Jasmin-Sami
 - 👀 I’m interested in becoming a web-dev
 - 🌱 I’m currently learning JavaScript
-- 📫 How to reach me: insta @jaz_m_yn
+- 📫 How to reach me: insta @jas.minxox
