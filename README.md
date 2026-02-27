@@ -54,7 +54,7 @@ I’m currently focused on building a strong foundation in:
 ## 📫 Let's Connect!
 I’m always open to collaborations on robotics, AI, or engineering projects.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINK_HERE)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=about.me&logoColor=white)](YOUR_LINK_HERE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/jasmin-sami-95907121b)
+[![Instagram](https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jas.minxox/)
 
 > *"Jack of all trades, master of none but oftentimes better than master of one."*
